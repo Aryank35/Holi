@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+  }
+  
+  body {
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    background-size: cover;
+  }
+  
+  .navbar {
+    margin-top: 10px;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0 0 15px white);
+  }
+  
+  .myinfo {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+  }
+  
+  .holi {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 90px;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .nav-link:hover {
+    color: rgb(255, 0, 0);
+  }
+  
+  video {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    filter: blur(100);
+    margin-top: 20px;
+  }
+  
+  .hue {
+    color: rgb(240, 81, 2);
+    font-weight: bold;
+    animation: hue 5s infinite;
+  }
+  
+  .btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btns .btn {
+    border: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+  }
+  
+  /* Hide contact and login buttons on mobile */
+  @media (max-width: 768px) {
+    .myinfo {
+      top: 100px;
+    }
+  
+    h1 {
+      font-size: 50px;
+    }
+  
+    .btns {
+      display: none;
+    }
+  }
+  
